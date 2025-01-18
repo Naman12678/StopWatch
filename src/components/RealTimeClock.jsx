@@ -16,7 +16,7 @@ function RealTimeClock() {
   };
 
   return (
-    <div className="text-gray-300 text-2xl font-bold bg-gray-800 p-4 rounded-lg shadow-md mb-4">
+    <div className="text-white text-4xl font-bold bg-gray-800 p-4 rounded-lg shadow-md mb-6">
       Time: {formatTime(currentTime)}
     </div>
   );
